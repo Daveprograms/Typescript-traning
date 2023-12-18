@@ -1,0 +1,24 @@
+"use strict";
+class customer {
+    constructor(_firstname, _lastname) {
+        this._firstname = _firstname;
+        this._lastname = _lastname;
+    }
+    //learing getters and setters in typescript, so similar to java hahah
+    get firstname() {
+        return this._firstname;
+    }
+    set firstname(value) {
+        this._firstname = value;
+    }
+    get lastname() {
+        return this._lastname;
+    }
+    set lastaname(value) {
+        this._lastname;
+    }
+}
+//creating an instance
+let myCustomer = new customer("David", "Fashola");
+console.log(myCustomer.firstname);
+console.log(myCustomer.lastname);
