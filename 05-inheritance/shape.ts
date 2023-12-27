@@ -1,7 +1,8 @@
 export class shape{
-    private _x: any;
-    private _y: any;
-    constructor(private_x: number,private_y: number ){
+    private _x: number;
+    private _y: number;
+    constructor(x: number,y: number ){
+        
         
     }
     
